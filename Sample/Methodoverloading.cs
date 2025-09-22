@@ -18,7 +18,7 @@ namespace Method
             double dbly = Convert.ToDouble(y);
             return dblx+dbly;
         }
-        static void main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("5.0+4.0= {0}", getsum2(5.0, 4.5));
             Console.WriteLine("5.0+4.0= {0}", getsum2(5.0, 4.5));
